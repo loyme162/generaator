@@ -1,4 +1,7 @@
+"Authorization:" "OPENAI_API_KEY"
+
 async function generateImage() {
+
     const prompt = document.getElementById("prompt").value;
     const imageContainer = document.getElementById("image-container");
     
